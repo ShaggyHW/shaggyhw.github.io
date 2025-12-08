@@ -1,0 +1,28 @@
+{
+  "id": 124309,
+  "models": {
+    "10": [
+      125924
+    ]
+  },
+  "name": "Treasure chest",
+  "unknown_19": 1,
+  "ambient": 25,
+  "actions": [
+    "Search",
+    "Toggle auto-collect",
+    "Teleport",
+    "Bank",
+    "Load Last Preset from"
+  ],
+  "is_members": true,
+  "occludes_2": false,
+  "cursors": [
+    56,
+    null,
+    null,
+    5,
+    51,
+    null
+  ]
+}

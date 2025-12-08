@@ -1,0 +1,45 @@
+{
+  "id": 34529,
+  "models": {
+    "10": [
+      88435
+    ]
+  },
+  "name": "Drawers",
+  "unknown_21": true,
+  "unknown_27": false,
+  "actions": [
+    "Search",
+    "Close",
+    null,
+    null,
+    null
+  ],
+  "colours": [
+    [
+      8487,
+      7456
+    ],
+    [
+      8478,
+      7452
+    ],
+    [
+      8483,
+      7448
+    ],
+    [
+      8598,
+      7444
+    ]
+  ],
+  "occludes_2": false,
+  "cursors": [
+    56,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

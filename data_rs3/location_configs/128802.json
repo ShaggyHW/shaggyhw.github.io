@@ -1,0 +1,24 @@
+{
+  "id": 128802,
+  "models": {
+    "22": [
+      132164
+    ]
+  },
+  "name": "Purple Santa hat",
+  "unknown_19": 1,
+  "ambient": 0,
+  "colours": [
+    [
+      940,
+      47781
+    ]
+  ],
+  "textures": {
+    "11777": 17474
+  },
+  "model": false,
+  "unknown_73": true,
+  "occludes_2": false,
+  "unknown_196": 4
+}

@@ -1,0 +1,21 @@
+{
+  "id": 19009,
+  "models": {
+    "10": [
+      80097
+    ]
+  },
+  "name": "Fireplace",
+  "dim_x": 2,
+  "dim_y": 2,
+  "unknown_19": 1,
+  "ambient": 0,
+  "actions": [
+    "Investigate",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false
+}

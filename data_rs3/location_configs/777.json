@@ -1,0 +1,30 @@
+{
+  "id": 777,
+  "models": {
+    "0": [
+      45608
+    ]
+  },
+  "name": "Cage",
+  "is_transparent": true,
+  "unknown_21": true,
+  "unknown_22": true,
+  "ambient": 25,
+  "actions": [
+    "Unlock",
+    null,
+    null,
+    null,
+    null
+  ],
+  "model": false,
+  "cursors": [
+    195,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "unknown_196": 1
+}

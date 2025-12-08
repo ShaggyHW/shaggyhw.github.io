@@ -1,0 +1,34 @@
+{
+  "id": 4899,
+  "models": {
+    "10": [
+      67768
+    ]
+  },
+  "name": "The Magister's chamber",
+  "dim_x": 5,
+  "dim_y": 7,
+  "actions": [
+    "Exit",
+    null,
+    null,
+    null,
+    null
+  ],
+  "textures": {
+    "8868": 11042
+  },
+  "scale_x": 570,
+  "scale_y": 500,
+  "scale_z": 700,
+  "occludes_2": false,
+  "cursors": [
+    57,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "unknown_203": true
+}

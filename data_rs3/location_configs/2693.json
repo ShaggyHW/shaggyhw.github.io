@@ -1,0 +1,26 @@
+{
+  "id": 2693,
+  "models": {
+    "10": [
+      56984
+    ]
+  },
+  "name": "Shantay chest",
+  "actions": [
+    "Open",
+    null,
+    "Collect",
+    "Load Last Preset from",
+    null
+  ],
+  "unknown_69": 11,
+  "occludes_2": false,
+  "cursors": [
+    49,
+    null,
+    5,
+    51,
+    null,
+    null
+  ]
+}

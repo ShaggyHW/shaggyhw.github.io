@@ -1,0 +1,35 @@
+{
+  "id": 39207,
+  "models": {
+    "10": [
+      134129
+    ]
+  },
+  "name": "The Sacred Forge",
+  "dim_x": 5,
+  "dim_y": 2,
+  "unknown_19": 1,
+  "actions": [
+    "Heat",
+    null,
+    null,
+    null,
+    null
+  ],
+  "unknown_78": {
+    "unknown_1": 3474,
+    "unknown_2": 14
+  },
+  "occludes_2": false,
+  "unknown_104": 240,
+  "unknown_1": 246,
+  "unknown_2": 266,
+  "cursors": [
+    63,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

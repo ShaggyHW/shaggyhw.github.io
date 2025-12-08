@@ -1,0 +1,25 @@
+{
+  "id": 34583,
+  "models": {
+    "10": [
+      132238
+    ]
+  },
+  "name": "Sacks",
+  "actions": [
+    "Search",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false,
+  "cursors": [
+    56,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

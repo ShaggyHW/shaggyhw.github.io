@@ -1,0 +1,13 @@
+{
+  "id": 92959,
+  "models": {
+    "10": [
+      127325
+    ]
+  },
+  "name": "Pile of rope",
+  "is_transparent": true,
+  "unknown_27": false,
+  "ambient": -10,
+  "occludes_2": false
+}

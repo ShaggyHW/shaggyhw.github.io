@@ -1,0 +1,19 @@
+{
+  "id": 14964,
+  "models": {
+    "10": [
+      67892,
+      131995
+    ]
+  },
+  "name": "Barrel",
+  "is_transparent": true,
+  "actions": [
+    "Take-from",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false
+}

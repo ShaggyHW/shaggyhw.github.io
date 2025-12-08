@@ -1,0 +1,21 @@
+{
+  "id": 128803,
+  "models": {
+    "22": [
+      132163
+    ]
+  },
+  "name": "Black partyhat",
+  "unknown_19": 1,
+  "ambient": 0,
+  "colours": [
+    [
+      926,
+      0
+    ]
+  ],
+  "model": false,
+  "unknown_73": true,
+  "occludes_2": false,
+  "unknown_196": 4
+}

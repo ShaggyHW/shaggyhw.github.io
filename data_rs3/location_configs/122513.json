@@ -1,0 +1,38 @@
+{
+  "id": 122513,
+  "models": {
+    "10": [
+      124948,
+      7767
+    ]
+  },
+  "name": "Hydrangea bush (budding)",
+  "actions": [
+    "Cultivate",
+    "Inspect",
+    null,
+    null,
+    null
+  ],
+  "colours": [
+    [
+      14872,
+      21033
+    ],
+    [
+      8722,
+      21272
+    ]
+  ],
+  "textures": {
+    "14489": 14490
+  },
+  "is_members": true,
+  "occludes_2": false,
+  "unknown_1": 16128,
+  "unknown_2": 16128,
+  "unknown_3": 16128,
+  "unknown_4": 16640,
+  "unknown_5": 16640,
+  "unknown_6": 16640
+}

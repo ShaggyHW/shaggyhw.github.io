@@ -1,0 +1,14 @@
+{
+  "id": 11738,
+  "models": {
+    "10": [
+      47552
+    ]
+  },
+  "name": "Large table",
+  "dim_y": 2,
+  "is_transparent": true,
+  "scale_x": 100,
+  "scale_z": 100,
+  "occludes_2": false
+}

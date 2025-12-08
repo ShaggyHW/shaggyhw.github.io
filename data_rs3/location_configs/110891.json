@@ -1,0 +1,14 @@
+{
+  "id": 110891,
+  "models": {
+    "10": [
+      104442
+    ]
+  },
+  "name": "Deck chair",
+  "unknown_21": true,
+  "unknown_27": false,
+  "ambient": 64,
+  "model": false,
+  "occludes_2": false
+}

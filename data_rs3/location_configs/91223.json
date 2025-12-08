@@ -1,0 +1,30 @@
+{
+  "id": 91223,
+  "models": {
+    "10": [
+      124538,
+      124539
+    ]
+  },
+  "name": "Evergreen",
+  "dim_x": 2,
+  "dim_y": 2,
+  "unknown_19": 1,
+  "unknown_27": false,
+  "colours": [
+    [
+      15629,
+      33018
+    ]
+  ],
+  "textures": {
+    "13228": 14066
+  },
+  "model": false,
+  "scale_x": 100,
+  "scale_y": 100,
+  "scale_z": 100,
+  "unknown_81": 42,
+  "occludes_2": false,
+  "unknown_189": true
+}

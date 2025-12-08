@@ -1,0 +1,28 @@
+{
+  "id": 44378,
+  "models": {
+    "10": [
+      135577
+    ]
+  },
+  "name": "Bone stile",
+  "unknown_19": 1,
+  "unknown_21": true,
+  "unknown_27": false,
+  "actions": [
+    "Climb-over",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false,
+  "cursors": [
+    181,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

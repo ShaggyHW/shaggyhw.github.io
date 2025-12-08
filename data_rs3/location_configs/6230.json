@@ -1,0 +1,17 @@
+{
+  "id": 6230,
+  "models": {
+    "10": [
+      6072
+    ]
+  },
+  "name": "Money pot",
+  "actions": [
+    "Throw coin",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false
+}

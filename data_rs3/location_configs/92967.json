@@ -1,0 +1,25 @@
+{
+  "id": 92967,
+  "models": {
+    "10": [
+      127352
+    ]
+  },
+  "name": "Sharp rock",
+  "is_transparent": true,
+  "unknown_21": true,
+  "actions": [
+    "Inspect",
+    null,
+    null,
+    null,
+    null
+  ],
+  "textures": {
+    "11805": 12163,
+    "11806": 12164,
+    "11807": 12165,
+    "11808": 12166
+  },
+  "occludes_2": false
+}

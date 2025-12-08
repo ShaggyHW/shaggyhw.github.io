@@ -1,0 +1,19 @@
+{
+  "id": 30728,
+  "models": {
+    "10": [
+      111514
+    ]
+  },
+  "name": "Morytania coffin",
+  "dim_y": 2,
+  "is_transparent": true,
+  "actions": [
+    "Interact",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": 47205,
+  "models": {
+    "10": [
+      29926
+    ]
+  },
+  "name": "Tunnel",
+  "dim_x": 3,
+  "dim_y": 3,
+  "unknown_19": 1,
+  "ambient": 25,
+  "actions": [
+    "Enter",
+    null,
+    null,
+    null,
+    null
+  ],
+  "contrast": 15,
+  "textures": {
+    "1412": 2403,
+    "1764": 11042,
+    "1833": 11093
+  },
+  "model": false,
+  "unknown_88": false,
+  "occludes_2": false,
+  "cursors": [
+    57,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

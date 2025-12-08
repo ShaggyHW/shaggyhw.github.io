@@ -1,0 +1,36 @@
+{
+  "id": 72936,
+  "models": {
+    "10": [
+      70989
+    ]
+  },
+  "name": "Bank",
+  "dim_x": 3,
+  "dim_y": 4,
+  "unknown_19": 1,
+  "ambient": 25,
+  "actions": [
+    null,
+    "Bank",
+    "Collect",
+    "Load Last Preset from",
+    null
+  ],
+  "contrast": 15,
+  "model": false,
+  "unknown_88": false,
+  "unknown_98": true,
+  "occludes_2": false,
+  "cursors": [
+    null,
+    5,
+    5,
+    51,
+    null,
+    null
+  ],
+  "params": {
+    "9049": 3283
+  }
+}

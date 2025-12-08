@@ -1,0 +1,34 @@
+{
+  "id": 92225,
+  "models": {
+    "10": [
+      73074
+    ]
+  },
+  "name": "Bank chest",
+  "dim_x": 2,
+  "unknown_19": 1,
+  "unknown_22": true,
+  "actions": [
+    null,
+    "Use",
+    "Collect",
+    "Load Last Preset from",
+    null
+  ],
+  "model": false,
+  "unknown_69": 11,
+  "unknown_88": false,
+  "occludes_2": false,
+  "cursors": [
+    null,
+    46,
+    5,
+    51,
+    null,
+    null
+  ],
+  "params": {
+    "5239": 1
+  }
+}

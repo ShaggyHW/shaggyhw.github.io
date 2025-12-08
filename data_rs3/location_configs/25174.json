@@ -1,0 +1,29 @@
+{
+  "id": 25174,
+  "models": {
+    "10": [
+      126590,
+      126581
+    ]
+  },
+  "name": "Tree",
+  "dim_x": 3,
+  "dim_y": 2,
+  "unknown_21": true,
+  "colours": [
+    [
+      15,
+      4486
+    ]
+  ],
+  "textures": {
+    "11921": 15240,
+    "13104": 15230,
+    "15238": 15239
+  },
+  "scale_x": 170,
+  "scale_y": 185,
+  "scale_z": 170,
+  "mapscene": 6,
+  "occludes_2": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": 92976,
+  "models": {
+    "10": [
+      127392,
+      127373
+    ]
+  },
+  "dim_x": 4,
+  "dim_y": 4,
+  "unknown_19": 0,
+  "unknown_24": 30007,
+  "unknown_27": false,
+  "colours": [
+    [
+      57,
+      62503
+    ]
+  ],
+  "textures": {
+    "1585": 15487
+  },
+  "model": false,
+  "unknown_88": false,
+  "occludes_2": false,
+  "unknown_188": true
+}

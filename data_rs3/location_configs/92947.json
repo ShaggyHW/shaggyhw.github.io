@@ -1,0 +1,36 @@
+{
+  "id": 92947,
+  "models": {
+    "10": [
+      127392,
+      127393,
+      127373,
+      127374
+    ]
+  },
+  "name": "Blatantly sabotaged ritual marker",
+  "dim_x": 4,
+  "dim_y": 4,
+  "unknown_24": 30007,
+  "unknown_27": false,
+  "actions": [
+    "Conceal",
+    null,
+    null,
+    null,
+    null
+  ],
+  "colours": [
+    [
+      933,
+      129
+    ]
+  ],
+  "textures": {
+    "15487": 15486
+  },
+  "model": false,
+  "unknown_88": false,
+  "occludes_2": false,
+  "unknown_188": true
+}

@@ -1,0 +1,26 @@
+{
+  "id": 83310,
+  "models": {
+    "10": [
+      126573
+    ]
+  },
+  "name": "Supply tent (Construction)",
+  "dim_x": 2,
+  "dim_y": 3,
+  "unknown_19": 1,
+  "unknown_24": 20025,
+  "unknown_27": false,
+  "actions": [
+    "Loot",
+    null,
+    null,
+    null,
+    null
+  ],
+  "scale_x": 140,
+  "scale_y": 140,
+  "scale_z": 140,
+  "unknown_81": 40,
+  "occludes_2": false
+}

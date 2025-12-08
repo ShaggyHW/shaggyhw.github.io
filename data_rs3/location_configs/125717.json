@@ -1,0 +1,30 @@
+{
+  "id": 125717,
+  "models": {
+    "10": [
+      128618
+    ]
+  },
+  "name": "Fletching workbench",
+  "dim_x": 2,
+  "is_transparent": true,
+  "unknown_27": false,
+  "actions": [
+    "Use",
+    "Ammo",
+    "Fletch",
+    "String",
+    null
+  ],
+  "unknown_69": 13,
+  "occludes_2": false,
+  "mapfunction": 5531,
+  "cursors": [
+    205,
+    null,
+    205,
+    205,
+    null,
+    null
+  ]
+}

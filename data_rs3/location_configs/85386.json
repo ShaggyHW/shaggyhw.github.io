@@ -1,0 +1,25 @@
+{
+  "id": 85386,
+  "models": {
+    "10": [
+      126601
+    ]
+  },
+  "name": "Tent",
+  "dim_x": 2,
+  "dim_y": 3,
+  "unknown_19": 1,
+  "unknown_27": false,
+  "actions": [
+    "Reclaim",
+    null,
+    null,
+    null,
+    null
+  ],
+  "scale_x": 140,
+  "scale_y": 140,
+  "scale_z": 140,
+  "unknown_81": 40,
+  "occludes_2": false
+}

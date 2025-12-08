@@ -1,0 +1,27 @@
+{
+  "id": 65388,
+  "models": {
+    "0": [
+      126382
+    ]
+  },
+  "name": "Gate",
+  "unknown_19": 1,
+  "ambient": 0,
+  "actions": [
+    "Open",
+    null,
+    null,
+    null,
+    null
+  ],
+  "mapscene": 95,
+  "cursors": [
+    49,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

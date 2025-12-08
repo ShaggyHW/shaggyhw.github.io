@@ -1,0 +1,24 @@
+{
+  "id": 109428,
+  "models": {
+    "10": [
+      118892
+    ]
+  },
+  "name": "Charger",
+  "is_transparent": true,
+  "unknown_24": 503,
+  "unknown_27": false,
+  "actions": [
+    "Deposit",
+    "Charge altar",
+    "Check storage",
+    null,
+    null
+  ],
+  "scale_x": 192,
+  "scale_y": 128,
+  "scale_z": 192,
+  "translate_z": 65504,
+  "occludes_2": false
+}

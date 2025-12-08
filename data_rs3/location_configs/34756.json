@@ -1,0 +1,13 @@
+{
+  "id": 34756,
+  "models": {
+    "10": [
+      34198,
+      34199
+    ]
+  },
+  "name": "Safe",
+  "is_transparent": true,
+  "unknown_27": false,
+  "occludes_2": false
+}

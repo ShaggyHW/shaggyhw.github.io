@@ -1,0 +1,23 @@
+{
+  "id": 83956,
+  "models": {
+    "10": [
+      124854
+    ]
+  },
+  "name": "Memorial Board",
+  "dim_y": 3,
+  "unknown_19": 1,
+  "ambient": 30,
+  "actions": [
+    "View",
+    "Play cutscene",
+    null,
+    null,
+    null
+  ],
+  "model": false,
+  "unknown_81": 40,
+  "unknown_88": false,
+  "occludes_2": false
+}

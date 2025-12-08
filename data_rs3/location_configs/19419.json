@@ -1,0 +1,25 @@
+{
+  "id": 19419,
+  "models": {
+    "10": [
+      19356
+    ]
+  },
+  "name": "Tunnel",
+  "ambient": 30,
+  "actions": [
+    "Inspect",
+    null,
+    null,
+    null,
+    null
+  ],
+  "contrast": 30,
+  "textures": {
+    "1830": 15081
+  },
+  "scale_x": 200,
+  "scale_y": 200,
+  "scale_z": 200,
+  "occludes_2": false
+}

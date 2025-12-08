@@ -1,0 +1,55 @@
+{
+  "id": 2581,
+  "models": {
+    "10": [
+      73989,
+      125580,
+      73987
+    ]
+  },
+  "name": "Rock",
+  "unknown_21": true,
+  "unknown_24": 32535,
+  "actions": [
+    null,
+    "Search",
+    null,
+    null,
+    null
+  ],
+  "colours": [
+    [
+      2116,
+      1056
+    ],
+    [
+      3135,
+      2075
+    ],
+    [
+      3127,
+      3098
+    ],
+    [
+      2109,
+      4115
+    ],
+    [
+      3143,
+      3100
+    ]
+  ],
+  "textures": {
+    "322": 10872
+  },
+  "mapscene": 12,
+  "occludes_2": false,
+  "cursors": [
+    null,
+    56,
+    null,
+    null,
+    null,
+    null
+  ]
+}

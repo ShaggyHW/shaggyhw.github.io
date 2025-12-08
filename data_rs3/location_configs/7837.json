@@ -1,0 +1,38 @@
+{
+  "id": 7837,
+  "models": {
+    "10": [
+      67768
+    ]
+  },
+  "name": "Mage Arena",
+  "dim_x": 3,
+  "dim_y": 4,
+  "unknown_27": false,
+  "actions": [
+    "Exit",
+    null,
+    null,
+    null,
+    null
+  ],
+  "textures": {
+    "8868": 11042
+  },
+  "model": false,
+  "scale_x": 350,
+  "scale_y": 100,
+  "scale_z": 450,
+  "unknown_88": false,
+  "occludes_2": false,
+  "cursors": [
+    57,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "unknown_196": 4,
+  "unknown_203": true
+}

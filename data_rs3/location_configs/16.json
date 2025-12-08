@@ -1,0 +1,23 @@
+{
+  "id": 16,
+  "models": {
+    "10": [
+      132253
+    ]
+  },
+  "name": "Silk stall",
+  "dim_x": 2,
+  "dim_y": 2,
+  "colours": [
+    [
+      435,
+      7852
+    ],
+    [
+      430,
+      7835
+    ]
+  ],
+  "mirror": true,
+  "occludes_2": false
+}

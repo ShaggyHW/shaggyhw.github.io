@@ -1,0 +1,29 @@
+{
+  "id": 67910,
+  "models": {
+    "10": [
+      8297
+    ]
+  },
+  "name": "Bank table",
+  "dim_x": 2,
+  "is_transparent": true,
+  "actions": [
+    null,
+    "Bank",
+    "Collect",
+    "Load Last Preset from",
+    null
+  ],
+  "unknown_69": 10,
+  "breakroutefinding": true,
+  "occludes_2": false,
+  "cursors": [
+    null,
+    5,
+    5,
+    51,
+    null,
+    null
+  ]
+}

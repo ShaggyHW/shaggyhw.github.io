@@ -1,0 +1,20 @@
+{
+  "id": 30457,
+  "models": {
+    "10": [
+      64158
+    ]
+  },
+  "dim_x": 2,
+  "dim_y": 2,
+  "unknown_19": 0,
+  "unknown_22": true,
+  "textures": {
+    "1767": 8538
+  },
+  "mirror": true,
+  "model": false,
+  "translate_y": 72,
+  "occludes_2": false,
+  "unknown_196": 2
+}

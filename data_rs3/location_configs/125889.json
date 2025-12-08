@@ -1,0 +1,40 @@
+{
+  "id": 125889,
+  "models": {
+    "10": [
+      127617
+    ]
+  },
+  "name": "Altar",
+  "ambient": 0,
+  "actions": [
+    "Pray-at",
+    "Offer Bones",
+    "Offer Ashes",
+    "Swap Prayers",
+    null
+  ],
+  "colours": [
+    [
+      39708,
+      1820
+    ],
+    [
+      7073,
+      8759
+    ]
+  ],
+  "textures": {
+    "11923": 17218
+  },
+  "model": false,
+  "occludes_2": false,
+  "cursors": [
+    61,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

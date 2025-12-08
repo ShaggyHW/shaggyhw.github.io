@@ -1,0 +1,27 @@
+{
+  "id": 34856,
+  "models": {
+    "22": [
+      61589
+    ]
+  },
+  "name": "Green crystal",
+  "is_transparent": true,
+  "unknown_19": 1,
+  "unknown_24": 13644,
+  "unknown_27": false,
+  "colours": [
+    [
+      7336,
+      22464
+    ],
+    [
+      7314,
+      23958
+    ]
+  ],
+  "textures": {
+    "1304": 15754
+  },
+  "occludes_2": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": 32432,
+  "models": {
+    "10": [
+      75168
+    ]
+  },
+  "name": "Easter Egg",
+  "actions": [
+    "Collect",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false
+}

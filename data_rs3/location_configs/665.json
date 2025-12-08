@@ -1,0 +1,14 @@
+{
+  "id": 665,
+  "models": {
+    "10": [
+      86693
+    ]
+  },
+  "name": "Corpse",
+  "is_transparent": true,
+  "unknown_21": true,
+  "ambient": -30,
+  "model": false,
+  "occludes_2": false
+}

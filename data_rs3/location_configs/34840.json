@@ -1,0 +1,15 @@
+{
+  "id": 34840,
+  "models": {
+    "10": [
+      89226,
+      89227
+    ]
+  },
+  "name": "Rack",
+  "dim_x": 2,
+  "dim_y": 3,
+  "is_transparent": true,
+  "unknown_27": false,
+  "occludes_2": false
+}

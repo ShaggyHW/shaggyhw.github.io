@@ -1,0 +1,17 @@
+{
+  "id": 14918,
+  "models": {
+    "10": [
+      113413
+    ]
+  },
+  "name": "Washbasin",
+  "actions": [
+    "Fill",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false
+}

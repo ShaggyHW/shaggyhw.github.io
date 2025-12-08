@@ -1,0 +1,22 @@
+{
+  "id": 81937,
+  "models": {
+    "10": [
+      25735
+    ]
+  },
+  "name": "Food trough",
+  "dim_x": 2,
+  "is_transparent": true,
+  "unknown_19": 1,
+  "unknown_27": false,
+  "actions": [
+    "Fill",
+    "Check",
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false,
+  "unknown_196": 1
+}

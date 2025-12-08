@@ -1,0 +1,14 @@
+{
+  "id": 95855,
+  "models": {
+    "10": [
+      103040,
+      102393
+    ]
+  },
+  "name": "Zemouregal",
+  "dim_x": 3,
+  "dim_y": 3,
+  "unknown_24": 25994,
+  "occludes_2": false
+}

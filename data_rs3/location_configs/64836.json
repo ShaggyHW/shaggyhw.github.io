@@ -1,0 +1,16 @@
+{
+  "id": 64836,
+  "models": {
+    "0": [
+      126488
+    ]
+  },
+  "name": "Wooden door",
+  "actions": [
+    "Close",
+    null,
+    null,
+    null,
+    null
+  ]
+}

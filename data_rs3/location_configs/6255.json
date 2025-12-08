@@ -1,0 +1,18 @@
+{
+  "id": 6255,
+  "models": {
+    "10": [
+      14206
+    ]
+  },
+  "name": "Trough",
+  "dim_x": 2,
+  "actions": [
+    "Fill",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false
+}

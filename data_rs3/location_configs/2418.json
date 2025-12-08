@@ -1,0 +1,18 @@
+{
+  "id": 2418,
+  "models": {
+    "10": [
+      71239
+    ]
+  },
+  "name": "Chest",
+  "unknown_19": 1,
+  "actions": [
+    null,
+    "Deposit",
+    "Shut",
+    null,
+    null
+  ],
+  "occludes_2": false
+}

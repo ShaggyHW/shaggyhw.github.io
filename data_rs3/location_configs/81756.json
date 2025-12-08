@@ -1,0 +1,34 @@
+{
+  "id": 81756,
+  "models": {
+    "10": [
+      82166
+    ]
+  },
+  "name": "Bank Box",
+  "dim_y": 2,
+  "is_transparent": true,
+  "unknown_19": 1,
+  "unknown_27": false,
+  "ambient": 25,
+  "actions": [
+    null,
+    "Use",
+    "Collect",
+    "Load Last Preset from",
+    null
+  ],
+  "contrast": 15,
+  "occludes_2": false,
+  "cursors": [
+    null,
+    46,
+    5,
+    51,
+    null,
+    null
+  ],
+  "params": {
+    "9049": 962
+  }
+}

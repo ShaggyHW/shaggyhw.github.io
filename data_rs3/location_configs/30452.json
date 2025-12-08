@@ -1,0 +1,19 @@
+{
+  "id": 30452,
+  "models": {
+    "10": [
+      64153
+    ]
+  },
+  "dim_y": 2,
+  "unknown_19": 0,
+  "unknown_22": true,
+  "textures": {
+    "1767": 8538
+  },
+  "mirror": true,
+  "model": false,
+  "translate_y": 104,
+  "occludes_2": false,
+  "unknown_196": 2
+}

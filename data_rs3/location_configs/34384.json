@@ -1,0 +1,29 @@
+{
+  "id": 34384,
+  "models": {
+    "10": [
+      91814
+    ]
+  },
+  "name": "Baker's stall",
+  "dim_x": 2,
+  "dim_y": 2,
+  "actions": [
+    null,
+    "Steal-from",
+    null,
+    null,
+    null
+  ],
+  "colours": [
+    [
+      435,
+      38324
+    ],
+    [
+      430,
+      38324
+    ]
+  ],
+  "occludes_2": false
+}

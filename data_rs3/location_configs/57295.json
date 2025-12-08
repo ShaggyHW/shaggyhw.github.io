@@ -1,0 +1,18 @@
+{
+  "id": 57295,
+  "models": {
+    "10": [
+      64113
+    ]
+  },
+  "is_transparent": true,
+  "unknown_19": 0,
+  "unknown_21": true,
+  "textures": {
+    "1861": 11172
+  },
+  "model": false,
+  "translate_y": 65532,
+  "unknown_88": false,
+  "occludes_2": false
+}

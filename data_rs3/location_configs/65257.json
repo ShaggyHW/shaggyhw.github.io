@@ -1,0 +1,24 @@
+{
+  "id": 65257,
+  "models": {
+    "10": [
+      126593,
+      126584
+    ]
+  },
+  "unknown_19": 0,
+  "colours": [
+    [
+      15,
+      3466
+    ]
+  ],
+  "textures": {
+    "11921": 15241,
+    "13104": 15230
+  },
+  "unknown_81": 40,
+  "mapscene": 6,
+  "occludes_2": false,
+  "unknown_188": true
+}

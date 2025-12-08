@@ -1,0 +1,12 @@
+{
+  "id": 4276,
+  "models": {
+    "10": [
+      133187
+    ]
+  },
+  "name": "Market stall",
+  "dim_x": 2,
+  "dim_y": 2,
+  "occludes_2": false
+}

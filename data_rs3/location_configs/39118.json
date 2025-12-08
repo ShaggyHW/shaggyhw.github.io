@@ -1,0 +1,14 @@
+{
+  "id": 39118,
+  "models": {
+    "10": [
+      134128
+    ]
+  },
+  "name": "Rubble-filled tunnel",
+  "dim_x": 3,
+  "dim_y": 2,
+  "unknown_22": true,
+  "ambient": 32,
+  "occludes_2": false
+}

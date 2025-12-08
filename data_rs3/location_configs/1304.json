@@ -1,0 +1,19 @@
+{
+  "id": 1304,
+  "models": {
+    "10": [
+      118518
+    ]
+  },
+  "name": "Tree",
+  "textures": {
+    "8897": 14485,
+    "8906": 14495
+  },
+  "model": false,
+  "unknown_75": 0,
+  "unknown_81": 5,
+  "mapscene": 5,
+  "occludes_2": false,
+  "unknown_196": 4
+}

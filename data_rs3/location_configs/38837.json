@@ -1,0 +1,25 @@
+{
+  "id": 38837,
+  "models": {
+    "0": [
+      126489
+    ]
+  },
+  "name": "Jail door",
+  "unknown_27": false,
+  "actions": [
+    "Open",
+    null,
+    null,
+    null,
+    null
+  ],
+  "cursors": [
+    49,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

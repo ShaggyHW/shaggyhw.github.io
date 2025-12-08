@@ -1,0 +1,17 @@
+{
+  "id": 2707,
+  "models": {
+    "10": [
+      74102
+    ]
+  },
+  "name": "Crate",
+  "actions": [
+    null,
+    "Investigate",
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false
+}

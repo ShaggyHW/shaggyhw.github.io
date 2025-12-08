@@ -1,0 +1,30 @@
+{
+  "id": 92978,
+  "models": {
+    "10": [
+      128147,
+      128149,
+      128148
+    ]
+  },
+  "name": "Frank's Free Chest",
+  "dim_x": 3,
+  "dim_y": 2,
+  "is_transparent": true,
+  "unknown_22": true,
+  "unknown_27": false,
+  "actions": [
+    "Loot",
+    "Check progress",
+    "View regular rewards",
+    "View special rewards",
+    null
+  ],
+  "model": false,
+  "scale_x": 185,
+  "scale_y": 185,
+  "scale_z": 185,
+  "unknown_88": false,
+  "occludes_2": false,
+  "mapfunction": 627
+}

@@ -1,0 +1,25 @@
+{
+  "id": 64837,
+  "models": {
+    "0": [
+      126488
+    ]
+  },
+  "name": "Wooden door",
+  "actions": [
+    "Open",
+    null,
+    null,
+    null,
+    null
+  ],
+  "mirror": true,
+  "cursors": [
+    49,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

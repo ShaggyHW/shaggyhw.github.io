@@ -1,0 +1,42 @@
+{
+  "id": 56684,
+  "models": {
+    "10": [
+      127392,
+      127393
+    ]
+  },
+  "name": "Modified ritual marker",
+  "dim_x": 4,
+  "dim_y": 4,
+  "unknown_24": 30007,
+  "unknown_27": false,
+  "actions": [
+    "Inspect",
+    null,
+    null,
+    null,
+    null
+  ],
+  "colours": [
+    [
+      933,
+      129
+    ]
+  ],
+  "textures": {
+    "15487": 15486
+  },
+  "model": false,
+  "unknown_88": false,
+  "occludes_2": false,
+  "unknown_188": true,
+  "cursors": [
+    56,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

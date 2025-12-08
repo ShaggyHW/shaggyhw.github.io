@@ -1,0 +1,77 @@
+{
+  "id": 7813,
+  "models": {
+    "10": [
+      74154,
+      74182,
+      73986
+    ]
+  },
+  "name": "Argonlike rock",
+  "dim_x": 2,
+  "dim_y": 2,
+  "is_transparent": true,
+  "unknown_21": true,
+  "unknown_24": 32536,
+  "actions": [
+    "Mine",
+    null,
+    null,
+    "Prospect",
+    null
+  ],
+  "colours": [
+    [
+      2116,
+      17
+    ],
+    [
+      3135,
+      17
+    ],
+    [
+      3127,
+      23
+    ],
+    [
+      2109,
+      11
+    ],
+    [
+      3143,
+      19
+    ],
+    [
+      54994,
+      42787
+    ],
+    [
+      54858,
+      42787
+    ],
+    [
+      54991,
+      42787
+    ],
+    [
+      54856,
+      42787
+    ]
+  ],
+  "textures": {
+    "322": 10867,
+    "1304": 10877
+  },
+  "model": false,
+  "mapscene": 12,
+  "occludes_2": false,
+  "mapfunction": 563,
+  "cursors": [
+    58,
+    null,
+    null,
+    56,
+    null,
+    null
+  ]
+}

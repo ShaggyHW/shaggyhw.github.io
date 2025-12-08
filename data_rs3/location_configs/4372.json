@@ -1,0 +1,13 @@
+{
+  "id": 4372,
+  "models": {
+    "10": [
+      47551
+    ]
+  },
+  "name": "Table",
+  "scale_x": 90,
+  "scale_y": 145,
+  "scale_z": 90,
+  "occludes_2": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": 11417,
+  "models": {
+    "22": [
+      11449
+    ]
+  },
+  "name": "Dug hole",
+  "unknown_19": 1,
+  "unknown_21": true,
+  "unknown_27": false,
+  "ambient": 5,
+  "actions": [
+    "Climb-down",
+    null,
+    null,
+    null,
+    null
+  ],
+  "textures": {
+    "1843": 13419
+  },
+  "unknown_88": false,
+  "occludes_2": false,
+  "cursors": [
+    53,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 122506,
+  "models": {
+    "10": [
+      121918,
+      7767
+    ]
+  },
+  "name": "Rose bush (blooming)",
+  "actions": [
+    "Cultivate",
+    "Inspect",
+    null,
+    null,
+    null
+  ],
+  "textures": {
+    "13633": 14494
+  },
+  "is_members": true,
+  "occludes_2": false,
+  "unknown_1": 16084,
+  "unknown_2": 16084,
+  "unknown_3": 16084,
+  "unknown_4": 16684,
+  "unknown_5": 16684,
+  "unknown_6": 16684
+}

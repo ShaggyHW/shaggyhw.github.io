@@ -1,0 +1,31 @@
+{
+  "id": 34383,
+  "models": {
+    "10": [
+      132253,
+      132256
+    ]
+  },
+  "name": "Silk stall",
+  "dim_x": 2,
+  "dim_y": 2,
+  "actions": [
+    null,
+    "Steal-from",
+    null,
+    null,
+    null
+  ],
+  "colours": [
+    [
+      435,
+      7852
+    ],
+    [
+      430,
+      7835
+    ]
+  ],
+  "mirror": true,
+  "occludes_2": false
+}

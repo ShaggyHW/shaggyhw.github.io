@@ -1,0 +1,37 @@
+{
+  "id": 17209,
+  "models": {
+    "10": [
+      17064
+    ]
+  },
+  "name": "Cave entrance",
+  "dim_x": 3,
+  "dim_y": 2,
+  "ambient": 15,
+  "actions": [
+    "Enter",
+    null,
+    null,
+    null,
+    null
+  ],
+  "contrast": 25,
+  "textures": {
+    "1743": 11172,
+    "1764": 11042
+  },
+  "unknown_69": 11,
+  "translate_y": 15,
+  "unknown_88": false,
+  "occludes_2": false,
+  "cursors": [
+    57,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "unknown_196": 2
+}

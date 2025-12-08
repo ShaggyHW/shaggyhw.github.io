@@ -1,0 +1,12 @@
+{
+  "id": 39205,
+  "models": {
+    "10": [
+      134127
+    ]
+  },
+  "name": "Rubble mound",
+  "dim_x": 3,
+  "is_transparent": true,
+  "occludes_2": false
+}

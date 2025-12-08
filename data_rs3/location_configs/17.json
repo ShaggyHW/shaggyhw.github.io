@@ -1,0 +1,22 @@
+{
+  "id": 17,
+  "models": {
+    "10": [
+      132253
+    ]
+  },
+  "name": "Baker's stall",
+  "dim_x": 2,
+  "dim_y": 2,
+  "colours": [
+    [
+      435,
+      38324
+    ],
+    [
+      430,
+      38324
+    ]
+  ],
+  "occludes_2": false
+}

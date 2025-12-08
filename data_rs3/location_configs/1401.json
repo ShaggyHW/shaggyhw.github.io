@@ -1,0 +1,11 @@
+{
+  "id": 1401,
+  "models": {
+    "10": [
+      121903
+    ]
+  },
+  "name": "Jungle plant",
+  "is_transparent": true,
+  "occludes_2": false
+}

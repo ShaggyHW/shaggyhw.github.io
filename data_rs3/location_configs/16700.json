@@ -1,0 +1,50 @@
+{
+  "id": 16700,
+  "models": {
+    "10": [
+      11208
+    ]
+  },
+  "name": "Bank booth",
+  "is_transparent": true,
+  "actions": [
+    null,
+    "Bank",
+    "Collect",
+    "Load Last Preset from",
+    null
+  ],
+  "colours": [
+    [
+      6684,
+      6806
+    ],
+    [
+      5665,
+      6558
+    ],
+    [
+      5545,
+      6439
+    ],
+    [
+      5547,
+      6563
+    ],
+    [
+      5549,
+      6563
+    ]
+  ],
+  "unknown_69": 11,
+  "breakroutefinding": true,
+  "occludes_2": false,
+  "cursors": [
+    null,
+    5,
+    5,
+    51,
+    null,
+    null
+  ]
+}

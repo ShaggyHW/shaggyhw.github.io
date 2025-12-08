@@ -1,0 +1,33 @@
+{
+  "id": 43462,
+  "models": {
+    "10": [
+      47083
+    ]
+  },
+  "name": "Boulder",
+  "dim_x": 2,
+  "is_transparent": true,
+  "unknown_24": 5686,
+  "actions": [
+    "Set-trap",
+    null,
+    null,
+    null,
+    null
+  ],
+  "textures": {
+    "1892": 14066,
+    "1894": 14066
+  },
+  "unknown_69": 13,
+  "mapscene": 71,
+  "occludes_2": false,
+  "unknown_163": {
+    "unknown_1": 36,
+    "unknown_2": 1,
+    "unknown_3": 48,
+    "unknown_4": 61
+  },
+  "unknown_196": 1
+}

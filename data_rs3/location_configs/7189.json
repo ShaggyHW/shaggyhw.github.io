@@ -1,0 +1,14 @@
+{
+  "id": 7189,
+  "models": {
+    "10": [
+      7458
+    ]
+  },
+  "name": "Tendrils",
+  "is_transparent": true,
+  "unknown_24": 2173,
+  "ambient": 25,
+  "contrast": 15,
+  "occludes_2": false
+}

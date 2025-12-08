@@ -1,0 +1,29 @@
+{
+  "id": 115115,
+  "models": {
+    "4": [
+      89330,
+      89329
+    ]
+  },
+  "unknown_19": 0,
+  "ambient": 0,
+  "model": false,
+  "occludes_2": false,
+  "unknown_204": [
+    {
+      "id": 32,
+      "some_bool": true,
+      "vec_1": [
+        1125974016,
+        1149698048,
+        0
+      ],
+      "vec_2": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

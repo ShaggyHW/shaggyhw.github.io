@@ -1,0 +1,19 @@
+{
+  "id": 7564,
+  "models": {
+    "10": [
+      7904,
+      7767
+    ]
+  },
+  "name": "Cave nightshade",
+  "ambient": 25,
+  "actions": [
+    null,
+    "Inspect",
+    null,
+    "Guide",
+    null
+  ],
+  "occludes_2": false
+}

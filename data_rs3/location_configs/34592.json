@@ -1,0 +1,13 @@
+{
+  "id": 34592,
+  "models": {
+    "10": [
+      81491
+    ]
+  },
+  "name": "Barrel",
+  "textures": {
+    "2086": 3186
+  },
+  "occludes_2": false
+}

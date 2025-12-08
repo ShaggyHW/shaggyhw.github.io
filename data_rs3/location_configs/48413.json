@@ -1,0 +1,17 @@
+{
+  "id": 48413,
+  "models": {
+    "10": [
+      52112
+    ]
+  },
+  "unknown_19": 0,
+  "unknown_21": true,
+  "ambient": 15,
+  "contrast": 10,
+  "textures": {
+    "1894": 15081
+  },
+  "occludes_2": false,
+  "unknown_196": 2
+}

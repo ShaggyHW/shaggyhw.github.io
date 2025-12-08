@@ -1,0 +1,14 @@
+{
+  "id": 92951,
+  "models": {
+    "10": [
+      72818,
+      127372
+    ]
+  },
+  "name": "Open chest",
+  "dim_y": 2,
+  "unknown_27": false,
+  "model": false,
+  "occludes_2": false
+}

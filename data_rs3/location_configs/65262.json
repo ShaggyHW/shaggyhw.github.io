@@ -1,0 +1,29 @@
+{
+  "id": 65262,
+  "models": {
+    "10": [
+      126591,
+      126582
+    ]
+  },
+  "dim_x": 2,
+  "dim_y": 2,
+  "unknown_19": 0,
+  "colours": [
+    [
+      15,
+      3466
+    ]
+  ],
+  "textures": {
+    "11921": 15241,
+    "13104": 15230
+  },
+  "scale_x": 170,
+  "scale_y": 180,
+  "scale_z": 170,
+  "unknown_81": 40,
+  "mapscene": 6,
+  "occludes_2": false,
+  "unknown_188": true
+}

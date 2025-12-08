@@ -1,0 +1,44 @@
+{
+  "id": 7808,
+  "models": {
+    "10": [
+      118769
+    ]
+  },
+  "name": "Fragments of an obelisk",
+  "unknown_21": true,
+  "ambient": 0,
+  "actions": [
+    "Discover",
+    null,
+    null,
+    null,
+    null
+  ],
+  "occludes_2": false,
+  "mapfunction": 920,
+  "cursors": [
+    56,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "unknown_204": [
+    {
+      "id": 69,
+      "some_bool": false,
+      "vec_1": [
+        0,
+        1112014848,
+        0
+      ],
+      "vec_2": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

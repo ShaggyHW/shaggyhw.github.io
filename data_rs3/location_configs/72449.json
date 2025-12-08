@@ -1,0 +1,18 @@
+{
+  "id": 72449,
+  "models": {
+    "10": [
+      84471
+    ]
+  },
+  "name": "Rocks",
+  "dim_x": 2,
+  "dim_y": 3,
+  "unknown_27": false,
+  "model": false,
+  "scale_x": 280,
+  "scale_y": 280,
+  "scale_z": 280,
+  "unknown_88": false,
+  "occludes_2": false
+}

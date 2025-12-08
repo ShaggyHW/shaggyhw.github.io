@@ -1,0 +1,18 @@
+{
+  "id": 12225,
+  "models": {
+    "10": [
+      91112
+    ]
+  },
+  "name": "Hay",
+  "dim_x": 2,
+  "dim_y": 3,
+  "unknown_17": false,
+  "unknown_19": 1,
+  "model": false,
+  "scale_x": 100,
+  "scale_y": 100,
+  "scale_z": 100,
+  "occludes_2": false
+}

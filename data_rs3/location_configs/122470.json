@@ -1,0 +1,32 @@
+{
+  "id": 122470,
+  "models": {
+    "10": [
+      124782
+    ]
+  },
+  "name": "Crocodile",
+  "dim_y": 2,
+  "unknown_19": 1,
+  "unknown_24": 34620,
+  "actions": [
+    "Jump to",
+    null,
+    null,
+    null,
+    null
+  ],
+  "is_members": true,
+  "occludes_2": false,
+  "cursors": [
+    181,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "params": {
+    "6668": 4809
+  }
+}

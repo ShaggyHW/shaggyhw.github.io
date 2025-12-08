@@ -1,0 +1,23 @@
+{
+  "id": 48284,
+  "models": {
+    "10": [
+      52030
+    ]
+  },
+  "dim_x": 4,
+  "dim_y": 2,
+  "is_transparent": true,
+  "unknown_19": 0,
+  "ambient": 25,
+  "contrast": 15,
+  "textures": {
+    "1892": 15081
+  },
+  "mirror": true,
+  "model": false,
+  "translate_y": 240,
+  "unknown_88": false,
+  "occludes_2": false,
+  "unknown_196": 3
+}

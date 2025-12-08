@@ -1,0 +1,11 @@
+{
+  "id": 40664,
+  "models": {
+    "10": [
+      44078
+    ]
+  },
+  "name": "Storage crate",
+  "is_transparent": true,
+  "occludes_2": false
+}

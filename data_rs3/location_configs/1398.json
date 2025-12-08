@@ -1,0 +1,14 @@
+{
+  "id": 1398,
+  "models": {
+    "10": [
+      121899
+    ]
+  },
+  "name": "Jungle plant",
+  "is_transparent": true,
+  "scale_x": 180,
+  "scale_y": 180,
+  "scale_z": 180,
+  "occludes_2": false
+}

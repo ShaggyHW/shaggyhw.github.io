@@ -1,0 +1,29 @@
+{
+  "id": 92977,
+  "models": {
+    "10": [
+      128145,
+      128146
+    ]
+  },
+  "name": "Frank's Free Chest",
+  "dim_x": 3,
+  "dim_y": 2,
+  "is_transparent": true,
+  "unknown_22": true,
+  "unknown_27": false,
+  "actions": [
+    "Hand in bits",
+    "Check progress",
+    "View regular rewards",
+    "View special rewards",
+    null
+  ],
+  "model": false,
+  "scale_x": 185,
+  "scale_y": 185,
+  "scale_z": 185,
+  "unknown_88": false,
+  "occludes_2": false,
+  "mapfunction": 627
+}

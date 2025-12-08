@@ -1,0 +1,18 @@
+{
+  "id": 1371,
+  "models": {
+    "10": [
+      118513
+    ]
+  },
+  "name": "Tropical tree",
+  "textures": {
+    "8897": 14485,
+    "8906": 14495
+  },
+  "model": false,
+  "unknown_81": 70,
+  "mapscene": 0,
+  "occludes_2": false,
+  "unknown_196": 4
+}

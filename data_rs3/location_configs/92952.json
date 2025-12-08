@@ -1,0 +1,14 @@
+{
+  "id": 92952,
+  "models": {
+    "10": [
+      73839,
+      127371
+    ]
+  },
+  "name": "Open crate",
+  "dim_x": 2,
+  "unknown_27": false,
+  "model": false,
+  "occludes_2": false
+}

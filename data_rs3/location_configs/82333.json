@@ -1,0 +1,16 @@
+{
+  "id": 82333,
+  "models": {
+    "10": [
+      127792,
+      127795
+    ]
+  },
+  "name": "Warning beacon",
+  "dim_x": 3,
+  "dim_y": 3,
+  "unknown_21": true,
+  "unknown_24": 10237,
+  "mapscene": 87,
+  "occludes_2": false
+}
