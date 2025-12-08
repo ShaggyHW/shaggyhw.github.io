@@ -1,0 +1,8 @@
+id,match_type,npc_id,npc_name,action,dest_min_x,dest_max_x,dest_min_y,dest_max_y,dest_plane,search_radius,cost,orig_min_x,orig_max_x,orig_min_y,orig_max_y,orig_plane,next_node_type,next_node_id,requirement_id,
+1,name,,Captain Tobias,Pay fare,2953,2960,3146,3147,0,20,600,3024,3029,3212,3225,0,ifslot,1,1,CAPTAIN TOBIAS TO KARAMJA
+2,id ,2291,,Travel,3348,3348,3003,3003,0,20,600,3310,3310,3109,3109,0,ifslot,6,38,
+3,id ,2291,,Travel,3352,3352,2943,2943,0,20,600,3310,3310,3109,3109,0,ifslot,7,38,
+4,id ,2291,,Travel,3401,3401,2915,2915,0,20,600,3310,3310,3109,3109,0,ifslot,8,38,
+5,id ,2291,,Travel,3181,3181,3046,3046,0,20,600,3310,3310,3109,3109,0,ifslot,9,38,
+6,id,9708,,Sail,3510,3510,3693,3693,0,20,600,3254,3254,3171,3171,0,,,,
+7,id,25190,,Travel,2135,2135,7107,7107,0,20,600,2594,2594,3409,3409,0,,,69,

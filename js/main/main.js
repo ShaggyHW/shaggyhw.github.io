@@ -109,14 +109,14 @@ void (function (global) {
 
     var teleports = L.teleports({
         API_KEY: "AIzaSyBrYT0-aS9VpW2Aenm-pJ2UCUhih8cZ4g8",
-        SHEET_ID: "1ZjKyAMUWa1qxFvBnmXwofNkRBkVfsizoGwp6rZylXXM",
+        SHEET_ID: "1gp1fePtecvpU1u-WhZk-uKm-wLiDcYB0LkmtaKOiPwo",
         minZoom: -3,
         filterFn: (item) => item.type === "teleport",
     });
 
     var transports = L.teleports({
         API_KEY: "AIzaSyBrYT0-aS9VpW2Aenm-pJ2UCUhih8cZ4g8",
-        SHEET_ID: "1ZjKyAMUWa1qxFvBnmXwofNkRBkVfsizoGwp6rZylXXM",
+        SHEET_ID: "1gp1fePtecvpU1u-WhZk-uKm-wLiDcYB0LkmtaKOiPwo",
         minZoom: -3,
         filterFn: (item) => item.type !== "teleport",
     });

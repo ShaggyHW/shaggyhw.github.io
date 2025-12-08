@@ -1527,29 +1527,371 @@ L.Teleports = L.DynamicIcons.extend({
         }
     },
 
+    _fetchSheetTab: function (tabName) {
+        const encoded = encodeURIComponent(tabName + "!A:Z");
+        return fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/${encoded}?key=${this.options.API_KEY}`)
+            .then((response) =>
+                response.ok
+                    ? response.json().then((sheet) => sheet.values || [])
+                    : response
+                          .json()
+                          .then((e) => Promise.reject(new Error(e.error.message)))
+                          .then(() => {}, console.error)
+            );
+    },
+
+    _parseLodestoneTable: function (rows) {
+        if (!rows || rows.length < 2) {
+            return [];
+        }
+        // header: id,lodestone,dest_x,dest_y,dest_plane,cost,next_node_type,next_node_id,requirement_id
+        return rows
+            .slice(1)
+            .map((row) => {
+                let rowId = Number(row[0]);
+                let lodestone = row[1];
+                let x = Number(row[2]);
+                let y = Number(row[3]);
+                let plane = Number(row[4]);
+                if (!Number.isFinite(x) || !Number.isFinite(y)) {
+                    return undefined;
+                }
+                return {
+                    table: "teleports_lodestone_nodes",
+                    tableId: rowId,
+                    rowSource: "lodestone",
+                    name: lodestone,
+                    type: "transport",
+                    plane: plane,
+                    x: x,
+                    y: y,
+                };
+            })
+            .filter(Boolean);
+    },
+
+    _parseNpcTable: function (rows) {
+        if (!rows || rows.length < 2) {
+            return [];
+        }
+        // header: id,match_type,npc_id,npc_name,action,dest_min_x,dest_max_x,dest_min_y,dest_max_y,dest_plane,search_radius,cost,orig_min_x,orig_max_x,orig_min_y,orig_max_y,orig_plane,next_node_type,next_node_id,requirement_id,
+        return rows
+            .slice(1)
+            .map((row) => {
+                let rowId = Number(row[0]);
+                let npcName = row[3];
+                let action = row[4];
+                // destination coords
+                let dest_x = Number(row[5]); // dest_min_x
+                let dest_y = Number(row[7]); // dest_min_y
+                let dest_plane = Number(row[9]); // dest_plane
+
+                // origin coords (if present)
+                let orig_x = Number(row[13]); // orig_min_x
+                let orig_y = Number(row[15]); // orig_min_y
+                // orig_plane is at index 16 in the header
+                let orig_plane = Number(row[16]); // orig_plane
+
+                if (!Number.isFinite(dest_x) || !Number.isFinite(dest_y)) {
+                    return undefined;
+                }
+
+                let item = {
+                    table: "teleports_npc_nodes",
+                    tableId: rowId,
+                    rowSource: "npc",
+                    name: npcName || action,
+                    type: "transport",
+                };
+
+                if (Number.isFinite(orig_x) && Number.isFinite(orig_y)) {
+                    // bidirectional: has both origin and destination
+                    item.start = {
+                        plane: orig_plane,
+                        x: orig_x,
+                        y: orig_y,
+                    };
+                    item.destination = {
+                        plane: dest_plane,
+                        x: dest_x,
+                        y: dest_y,
+                    };
+                } else {
+                    // single endpoint
+                    item.plane = dest_plane;
+                    item.x = dest_x;
+                    item.y = dest_y;
+                }
+                return {
+                    ...item,
+                };
+            })
+            .filter(Boolean);
+    },
+
+    _parseObjectTable: function (rows) {
+        if (!rows || rows.length < 2) {
+            return [];
+        }
+        // header: id,match_type,object_id,object_name,action,dest_min_x,dest_max_x,dest_min_y,dest_max_y,dest_plane,orig_min_x,orig_max_x,orig_min_y,orig_max_y,orig_plane,search_radius,cost,next_node_type,next_node_id,requirement_id,
+        return rows
+            .slice(1)
+            .map((row) => {
+                let rowId = Number(row[0]);
+                let objectName = row[3];
+                let action = row[4];
+                // destination coords
+                let dest_x = Number(row[5]); // dest_min_x
+                let dest_y = Number(row[7]); // dest_min_y
+                let dest_plane = Number(row[9] ); // dest_plane
+
+                // origin coords (if present)
+                let orig_x = Number(row[11]); // orig_min_x
+                let orig_y = Number(row[13]); // orig_min_y
+                let orig_plane = Number(row[14] ); // orig_plane
+
+                if (!Number.isFinite(dest_x) || !Number.isFinite(dest_y)) {
+                    return undefined;
+                }
+
+                let item = {
+                    table: "teleports_object_nodes",
+                    tableId: rowId,
+                    rowSource: "object",
+                    name: objectName || action,
+                    type: "transport",
+                };
+
+                if (Number.isFinite(orig_x) && Number.isFinite(orig_y)) {
+                    item.start = {
+                        plane: orig_plane,
+                        x: orig_x,
+                        y: orig_y,
+                    };
+                    item.destination = {
+                        plane: dest_plane,
+                        x: dest_x,
+                        y: dest_y,
+                    };
+                } else {
+                    item.plane = dest_plane;
+                    item.x = dest_x;
+                    item.y = dest_y;
+                }
+                return {
+                    ...item,
+                };
+            })
+            .filter(Boolean);
+    },
+
+    _parseItemTable: function (rows) {
+        if (!rows || rows.length < 2) {
+            return [];
+        }
+        // header: id,item_id,action,dest_min_x,dest_max_x,dest_min_y,dest_max_y,dest_plane,next_node_type,next_node_id,cost,requirement_id,INFO
+        return rows
+            .slice(1)
+            .map((row) => {
+                let rowId = Number(row[0]);
+                let action = row[2];
+                let x = Number(row[3]); // dest_min_x
+                let y = Number(row[5]); // dest_min_y
+                let plane = Number(row[6]); // dest_plane
+                let info = row[12];
+                if (!Number.isFinite(x) || !Number.isFinite(y)) {
+                    return undefined;
+                }
+                return {
+                    table: "teleports_item_nodes",
+                    tableId: rowId,
+                    rowSource: "item",
+                    name: info || action,
+                    type: "transport",
+                    plane: plane,
+                    x: x,
+                    y: y,
+                };
+            })
+            .filter(Boolean);
+    },
+
+    _parseDoorTable: function (rows) {
+        if (!rows || rows.length < 2) {
+            return [];
+        }
+        // header: id,direction,real_id_open,real_id_closed,location_open_x,location_open_y,location_open_plane,location_closed_x,location_closed_y,location_closed_plane,tile_inside_x,tile_inside_y,tile_inside_plane,tile_outside_x,tile_outside_y,tile_outside_plane,open_action,cost,next_node_type,next_node_id,requirement_id
+        return rows
+            .slice(1)
+            .map((row) => {
+                let rowId = Number(row[0]);
+                // use tile_inside_* and tile_outside_* as start/destination
+                let inside_x = Number(row[10]); // tile_inside_x
+                let inside_y = Number(row[11]); // tile_inside_y
+                let inside_plane = Number(row[12] ); // tile_inside_plane
+                let outside_x = Number(row[13]); // tile_outside_x
+                let outside_y = Number(row[14]); // tile_outside_y
+                let outside_plane = Number(row[15] ); // tile_outside_plane
+                let action = row[16];
+
+                if (!Number.isFinite(inside_x) || !Number.isFinite(inside_y) || !Number.isFinite(outside_x) || !Number.isFinite(outside_y)) {
+                    return undefined;
+                }
+                return {
+                    table: "teleports_door_nodes",
+                    tableId: rowId,
+                    rowSource: "door",
+                    name: action || "Door",
+                    type: "transport",
+                    start: {
+                        plane: inside_plane,
+                        x: inside_x,
+                        y: inside_y,
+                    },
+                    destination: {
+                        plane: outside_plane,
+                        x: outside_x,
+                        y: outside_y,
+                    },
+                };
+            })
+            .filter(Boolean);
+    },
+
+    _parseIfslotTable: function (rows) {
+        if (!rows || rows.length < 2) {
+            return [];
+        }
+        // header: id,interface_id,component_id,slot_id,click_id,dest_min_x,dest_max_x,dest_min_y,dest_max_y,dest_plane,cost,next_node_type,next_node_id,requirement_id,
+        return rows
+            .slice(1)
+            .map((row) => {
+                let rowId = Number(row[0]);
+                let x = Number(row[5]); // dest_min_x
+                let y = Number(row[7]); // dest_min_y
+                let plane = Number(row[8] ); // dest_plane
+                let name = row[13];
+                if (!Number.isFinite(x) || !Number.isFinite(y)) {
+                    return undefined;
+                }
+                return {
+                    table: "teleports_ifslot_nodes",
+                    tableId: rowId,
+                    rowSource: "ifslot",
+                    name: name || "Interface teleport",
+                    type: "transport",
+                    plane: plane,
+                    x: x,
+                    y: y,
+                };
+            })
+            .filter(Boolean);
+    },
+
     onAdd: function (map) {
         // eslint-disable-line no-unused-vars
         if (this.options.API_KEY && this.options.SHEET_ID) {
-            const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`).then((response) =>
-                response.ok ? response.json().then((sheet) => sheet.values) : response.json().then((oopsie) => Promise.reject(new Error(oopsie.error.message)).then(() => { }, console.error))
-            );
+            const tablesPromise = Promise.all([
+                this._fetchSheetTab("teleports_lodestone_nodes"),
+                this._fetchSheetTab("teleports_npc_nodes"),
+                this._fetchSheetTab("teleports_object_nodes"),
+                this._fetchSheetTab("teleports_item_nodes"),
+                this._fetchSheetTab("teleports_door_nodes"),
+                this._fetchSheetTab("teleports_ifslot_nodes"),
+            ]);
 
             const wateryPromise = fetch(`data_rs3/keyed_watery.json`)
                 .then((response) => (response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))))
                 .catch(console.error);
 
-            const allData = Promise.all([dataPromise, wateryPromise]);
+            const allData = Promise.all([tablesPromise, wateryPromise]);
 
-            allData.then((responses) => {
-                if (this._map && !responses.includes(undefined)) {
-                    this._icon_data = this.parseData(...responses);
+            allData
+                .then((responses) => {
+                    if (!this._map || responses.includes(undefined)) {
+                        return;
+                    }
+                    const [[lodestoneRows, npcRows, objectRows, itemRows, doorRows, ifslotRows], watery] = responses;
+
+                    let base_items = [];
+                    base_items = base_items
+                        .concat(
+                            this._parseLodestoneTable(lodestoneRows),
+                            this._parseNpcTable(npcRows),
+                            this._parseObjectTable(objectRows),
+                            this._parseItemTable(itemRows),
+                            this._parseDoorTable(doorRows),
+                            this._parseIfslotTable(ifslotRows)
+                        );
+
+                    // Expand items with both start and destination into two icons (start and destination),
+                    // mirroring the behavior of parseData for transits_a / transits_b so that
+                    // createIcon/createNavigator can draw the line and "Navigate to link" works.
+                    let all_icons = [];
+                    base_items.forEach((item) => {
+                        if (item.start && item.destination) {
+                            let startItem = Object.assign({}, item, item.start, { mode: "start" });
+                            let destItem = Object.assign({}, item, item.destination, { mode: "destination" });
+                            all_icons.push(startItem, destItem);
+                        } else {
+                            all_icons.push(item);
+                        }
+                    });
+
+                    // Adjust planes for watery tiles and compute keys, similar to original parseData
+                    all_icons.forEach((item) => {
+                        try {
+                            let tileCollection = watery[item.plane] || {};
+                            let tileKey = `${item.plane}_${item.x >> 6}_${item.y >> 6}`;
+                            let tileList = tileCollection[tileKey] || [];
+                            let isWatery = tileList.includes((item.x << 14) + item.y);
+                            item.watery = isWatery;
+                            // Original logic lowered plane when in watery tile
+                            if (isWatery) {
+                                item.plane = item.plane - 1;
+                            }
+                        } catch (e) {
+                            // fail soft if watery data missing for some tiles
+                        }
+                        item.type = item.type || "transport";
+                        item.key = this._tileCoordsToKey({
+                            plane: item.plane,
+                            x: item.x >> 6,
+                            y: -(item.y >> 6),
+                        });
+                    });
+
+                    all_icons.forEach((item) => {
+                        let json = JSON.stringify(item).toLowerCase();
+                        if (json.includes("template") || json.includes("instance")) {
+                            item.actuallyInstance = true;
+                        }
+                    });
+
+                    all_icons.forEach((item) => this.getIconUrl(item));
+
+                    if (this.options.filterFn) {
+                        all_icons = all_icons.filter((item) => this.options.filterFn(item));
+                    }
+
+                    if (this.options.mapFn) {
+                        all_icons = all_icons.map((item) => this.options.mapFn(item));
+                    }
+
+                    let icon_data = {};
+                    all_icons.forEach((item) => {
+                        if (!(item.key in icon_data)) {
+                            icon_data[item.key] = [];
+                        }
+                        icon_data[item.key].push(item);
+                    });
+
+                    this._icon_data = icon_data;
                     this._icons = {};
                     this._resetView();
                     this._update();
-                }
-            });
-
-            allData.catch(console.error);
+                })
+                .catch(console.error);
         } else {
             throw new Error("No API_KEY and/or SHEET_ID specified");
         }
@@ -1726,11 +2068,22 @@ L.Teleports = L.DynamicIcons.extend({
         var data = this._icon_data[dataKey];
         var icons = [];
 
+        if (!data) {
+            return;
+        }
+
+        var currentPlane = this._map.getPlane();
+
         data.forEach((item) => {
+            // Only show icons on the currently selected plane
+            if (typeof item.plane === "number" && item.plane !== currentPlane) {
+                return;
+            }
             var icon = this.createIcon(item);
             this._map.addLayer(icon);
             icons.push(icon);
         });
+
         this._icons[key] = {
             icons: icons,
             coords: coords,

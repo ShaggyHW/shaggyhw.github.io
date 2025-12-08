@@ -1,0 +1,31 @@
+id,item_id,action,dest_min_x,dest_max_x,dest_min_y,dest_max_y,dest_plane,next_node_type,next_node_id,cost,requirement_id,INFO
+1,19480,Read,3299,3309,3544,3554,0,,,1800,29,ForForithry teleport scroll
+2,39812,Grand Exchange,3162,3163,3461,3467,0,,,1800,34,LOTD GE
+3,49429,Teleport,3336,3336,3378,3381,0,,,1800,45,Arch book tele
+4,37907,Edgeville,3083,3083,3504,3504,0,,,1800,55,equipped wilderness sword 4
+5,37907,Herb patch,3142,3142,3826,3826,0,,,1800,55,equipped wilderness sword 4
+6,37907,Forinthy,3083,3083,10061,10061,0,,,1800,55,equipped wilderness sword 4
+7,37907,Agility Course,2997,2997,3913,3913,0,,,1800,55,equipped wilderness sword 4
+8,32151,Max Guild,2276,2276,3313,3313,1,,,1800,56,max guild cape 
+9,39784,Activate,2330,2330,3172,3172,0,ifslot,23,1800,57,1 - Attuned Crystal seed - Lletya
+10,39784,Activate,1938,1938,4643,4643,0,ifslot,24,1800,57,2- Attuned Crystal seed  - Temple of Light
+11,39784,Activate,2157,2157,3381,3381,1,ifslot,25,1800,57,3- Attuned Crystal seed - Amlodd Prif 
+12,39784,Activate,2260,2260,3338,3338,1,ifslot,26,1800,57,4 - Attuned Crystal seed 
+13,39784,Activate,2260,2260,3383,3383,1,ifslot,27,1800,57,5 - Attuned Crystal Seed
+14,39784,Activate,2188,2188,3409,3409,1,ifslot,28,1800,57,6 - Attuned Crystal Seed
+15,39784,Activate,2186,2186,3313,3313,1,ifslot,29,1800,57,7 - Attuned Crystal Seed
+16,39784,Activate,2155,2155,3341,3341,1,ifslot,30,1800,57,8 - Attuned Crystal Seed
+17,39784,Activate,2230,2230,3411,3411,1,ifslot,31,1800,57,9 - Attuned Crystal Seed
+18,39784,Activate,2230,2230,3311,3311,1,ifslot,32,1800,57,10 - Attuned Crystal Seed
+19,9013,Teleport,3081,3081,3421,3421,0,ifslot,23,1800,59,1 - Outside Skull Sceptre - Barb village
+20,22332,Runecrafting guild teleport,3109,3109,3156,3156,0,,,1800,60,Runecrafting guild
+21,4251,Empty,3360,3360,3524,3524,0,,,1800,61,Ectofuntus
+22,19754,Teleport,2841,2841,9388,9388,0,,,1800,62,Shilo Village Gem mine
+23,21576,Teleport,3565,3565,3318,3318,0,ifslot,23,1800,66,Barrows teleport Drakan med
+24,21576,Teleport,3499,3499,3199,3199,0,ifslot,24,1800,66,burgh rott drakan med
+25,21576,Teleport,3627,3627,9618,9618,0,ifslot,25,1800,66,meiyerditch drakan med
+26,21576,Teleport,3623,3623,3364,3364,0,ifslot,26,1800,66,darkmeyer drakan med
+27,21576,Teleport,3634,3634,9693,9693,0,ifslot,27,1800,66,meiyerditch labs drakan med
+28,27096,Teleport,3435,3435,2918,2918,0,ifslot,23,1800,67,desert amulet 4 nardah
+29,27096,Teleport,3478,3478,3101,3101,0,ifslot,24,1800,67,desert amulet 4 uzer
+30,15707,Teleport to Daemonheim,3448,3448,3701,3701,0,,,1800,68,ring of kinship
